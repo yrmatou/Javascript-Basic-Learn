@@ -2,6 +2,7 @@
 
 ### javascript部分
   [var, let, const](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/3)  
+  [词法环境](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/7)  
   [基础类型和引用类型](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/5)  
   [赋值，深拷贝，浅拷贝区别](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/4)  
   [事件循环机制 Event Loop](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/6)  
