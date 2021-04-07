@@ -5,6 +5,7 @@
   #### [词法环境](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/7)  
   #### [执行栈和任务队列](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/8)  
   #### [基础类型和引用类型](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/5)  
+  #### [原型链](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/9)
   #### [赋值，深拷贝，浅拷贝区别](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/4)  
   #### [事件循环机制 Event Loop](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/6)  
   #### [promise](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/1)  
