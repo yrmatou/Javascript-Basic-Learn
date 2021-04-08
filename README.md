@@ -8,6 +8,7 @@
   #### [原型链](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/9)  
   #### [变量对象](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/11) 
   #### [执行上下文](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/10)  
+  #### [作用域](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/12)
   #### [赋值，深拷贝，浅拷贝区别](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/4)  
   #### [事件循环机制 Event Loop](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/6)  
   #### [promise](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/1)  
