@@ -12,6 +12,7 @@
   #### [立即执行函数 IIFE](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/13)  
   #### [赋值，深拷贝，浅拷贝区别](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/4)  
   #### [事件循环机制 Event Loop](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/6)  
+  #### [new 实现](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/13)  
   #### [promise](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/1)  
   #### [async-await](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/2)  
   
