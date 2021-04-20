@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-demo</title>
+    <style>
+        .item {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            color: #fff;
+        }
+
+        .list {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 300px;
+            background-color: bisque;
+            color: #fff;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .list-common {
+            display: flex;
+        }
+
+        .list-one {
+            background-color: blue;
+        }
+
+        .list-two {
+            background-color: crimson;
+            align-self: flex-end;
+        }
+
+        .InputAddOn {
+            display: flex;
+        }
+
+        .InputAddOn-field {
+            flex: 1;
+        }
+
+        .Grid {
+            display: flex;
+        }
+
+        .Grid-cell {
+            flex: 1;
+        }
+
+        .Grid-cell.u-full {
+            flex: 0 0 100%;
+        }
+
+        .Grid-cell.u-1of2 {
+            flex: 0 0 50%;
+        }
+
+        .Grid-cell.u-1of3 {
+            flex: 0 0 33.3333%;
+        }
+
+        .Grid-cell.u-1of4 {
+            flex: 0 0 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="item">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </div>
+    <div class="list">
+        <div class="list-common list-one">
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+        </div>
+        <div class="list-common list-two">
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+        </div>
+    </div>
+
+
+    <div class="InputAddOn" style="margin-top: 200px;">
+        <span class="InputAddOn-item">...</span>
+        <input class="InputAddOn-field">
+        <button class="InputAddOn-item">...</button>
+    </div>
+
+    <div class="Grid" style="margin-top: 200px;margin-bottom: 200px;">
+        <div class="Grid-cell u-1of4">
+            <span class="u-full">1</span>
+            <span>2</span>
+            <span>3</span>
+        </div>
+        <div class="Grid-cell">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+        </div>
+        <div class="Grid-cell u-1of3">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+        </div>
+    </div>
+</body>
+
+</html>
