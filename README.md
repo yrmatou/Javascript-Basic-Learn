@@ -17,6 +17,7 @@
   #### [bind 实现](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/16)  
   #### [promise](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/1)  
   #### [async-await](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/2)  
+  #### [小游戏学习](https://github.com/wangQiaoBrother/mini-games)  
   
   
   
