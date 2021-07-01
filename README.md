@@ -17,10 +17,28 @@
   #### [bind 实现](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/16)  
   #### [promise](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/1)  
   #### [async-await](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/2)  
+  #### [小游戏学习](https://github.com/wangQiaoBrother/mini-games)  
   
   
   
 ### css部分
   #### [flex布局](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/17)  
+  #### [viewport](https://segmentfault.com/a/1190000008517628)  
+  
+  
+### 算法部分
+#### [求出给定N以内的素数（质数）埃拉托斯特尼筛法](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/19)  
+#### [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/solution/shan-chu-lian-biao-zhong-de-jie-dian-by-leetcode/)  
   
 
+**强烈推荐福利！！！每天免费领取饿了么，美团外卖红包（买菜，点美食都可以）**
+
+<div align="left">
+  <img src="https://user-images.githubusercontent.com/21699695/123602800-bb26af00-d82b-11eb-91dc-2327281c0941.jpg" alt="Editor" width="200">
+</div>
+
+**互相学习交流**
+
+<div align="left">
+  <img src="https://user-images.githubusercontent.com/21699695/123603292-4f911180-d82c-11eb-809b-9c9f6232ba04.png" alt="Editor" width="200">
+</div>
