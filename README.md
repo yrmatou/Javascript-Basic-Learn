@@ -28,7 +28,7 @@
   
 ### 算法部分
 #### [求出给定N以内的素数（质数）埃拉托斯特尼筛法](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/19)  
-#### [链表](https://juejin.cn/post/6844903498362912775)  
+#### [链表](https://github.com/wangQiaoBrother/Javascript-Basic-Learn/issues/20)  
 #### [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/solution/shan-chu-lian-biao-zhong-de-jie-dian-by-leetcode/)  
   
 
