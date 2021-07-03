@@ -18,8 +18,7 @@
   #### [promise](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/1)  
   #### [async-await](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/2)  
   #### [小游戏学习](https://github.com/wangQiaoBrother/mini-games)  
-  
-  
+  #### [函数柯里化](https://segmentfault.com/a/1190000018265172)  
   
 ### css部分
   #### [flex布局](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/17)  
