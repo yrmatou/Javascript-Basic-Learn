@@ -18,8 +18,7 @@
   #### [promise](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/1)  
   #### [async-await](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/2)  
   #### [小游戏学习](https://github.com/wangQiaoBrother/mini-games)  
-  
-  
+  #### [函数柯里化](https://segmentfault.com/a/1190000018265172)  
   
 ### css部分
   #### [flex布局](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/17)  
@@ -27,8 +26,10 @@
   
   
 ### 算法部分
+#### [空间复杂度、时间复杂度](https://zhuanlan.zhihu.com/p/50479555)  
 #### [求出给定N以内的素数（质数）埃拉托斯特尼筛法](https://github.com/wangQiaoBrother/javascript-basic-learn/issues/19)  
-#### [链表](https://juejin.cn/post/6844903498362912775)  
+#### [链表](https://github.com/wangQiaoBrother/Javascript-Basic-Learn/issues/20)  
+#### [快慢指针](https://www.jianshu.com/p/ef1b673759b6)  
 #### [删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/solution/shan-chu-lian-biao-zhong-de-jie-dian-by-leetcode/)  
   
 
