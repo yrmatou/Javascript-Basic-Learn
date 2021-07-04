@@ -1,17 +1,29 @@
-var curry = function (fn) {
-    var args = [].slice.call(arguments, 1);
-    console.log(args)
-    return function() {
-        var newArgs = args.concat([].slice.call(arguments));
-        console.log(newArgs)
-        return fn.apply(this, newArgs);
-    };
-};
 
+/**
+ * 函数柯理化
+ *  参数复用、提前返回和 延迟执行
+ */
+// add
 function add(a, b) {
-    return a + b;
+    return a + b
 }
 
-curry((a)=>{console.log(a)},2,1)
+// curry
+function curry(fn) {
+    // 函数参数的数量
+    let length = fn.length;
+    let slice = Array.prototype.slice;
+    let args = slice.call(arguments, 1);
+    return function () {
+        let arg = args.concat(slice.call(arguments));
+        // 判断函数参数的数量
+        if (arg.length >= length) {
+            return fn.call(this, ...arg);
+        }
+        curry(fn, ...arg);
+    }
+}
 
-// var addCurry = curry(add, 1, 2);
+var curryN = curry(add);
+
+console.log(curryN(1));
