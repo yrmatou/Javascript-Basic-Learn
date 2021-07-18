@@ -1,6 +1,7 @@
 /**
  * 手写promiseA 2
  * 首先定义promise状态 pending fulfilled rejected
+ * 参考文章 https://juejin.cn/post/6850037281206566919
  */
 
 // 定义三个状态常量
