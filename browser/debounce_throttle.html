@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>防抖和节流demo</title>
+    <style>
+        #container {
+            width: 100%;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            color: #fff;
+            background-color: #444;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script>
+        // 防抖
+        function debounce(func, wait) {
+            var timeout;
+            return function () {
+                let self = this;
+                let arg = arguments;
+                clearTimeout(timeout)
+                timeout = setTimeout(function () {
+                    func.apply(self, arg);
+                }, wait);
+            }
+        }
+
+        // 节流
+        function throttle(cb, ms) {
+            var timer;
+            return function () {
+                let self = this;
+                let arg = arguments;
+                if (!timer) {
+                    timer = setTimeout(() => {
+                        cb && cb.apply(self, arg);
+                        timer = null;
+                    }, ms)
+                }
+            }
+        }
+
+        var count = 1;
+        var container = document.getElementById('container');
+
+        function getUserAction(e) {
+            console.log(this, e);
+            container.innerHTML = count++;
+        };
+        container.onmousemove = throttle(getUserAction, 500);
+    </script>
+</body>
+
+</html>
