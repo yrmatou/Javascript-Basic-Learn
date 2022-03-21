@@ -9,7 +9,7 @@ import App from './App'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  render: h => h(App),
+  // render: h => h(App),
   // render (createElement) {
   //   return createElement('div', {
   //     attrs: {
@@ -17,9 +17,12 @@ new Vue({
   //     }
   //   }, this.message)
   // },
-  // data: {
-  //   message: 'Hello World'
-  // },
+  mounted () {
+    console.log(this.message)
+  },
+  data: {
+    message: 'Hello World'
+  }
   // router,
   // components: { App },
   // template: '<App/>'
