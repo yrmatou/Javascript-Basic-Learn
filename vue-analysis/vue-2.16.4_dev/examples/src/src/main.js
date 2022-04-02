@@ -10,13 +10,16 @@ import Vue from 'vue'
 new Vue({
   el: '#app',
   // render: h => h(App),
-  render (createElement) {
-    return createElement('div', {
-      attrs: {
-        id: '#app1'
-      }
-    }, this.message)
-  },
+  // render (createElement) {
+  //   return createElement('div', {
+  //     attrs: {
+  //       id: '#app1'
+  //     }
+  //   }, this.message)
+  // },
+  // mounted () {
+  //   console.log(this.message)
+  // },
   data: {
     message: 'Hello World'
   }
