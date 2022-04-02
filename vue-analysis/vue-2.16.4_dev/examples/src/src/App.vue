@@ -3,7 +3,7 @@
     <!-- <img src="./assets/logo.png"> -->
     <!-- <router-view/> -->
     <!-- {{message}} -->
-    <helloWorld></helloWorld>
+    <!-- <helloWorld></helloWorld> -->
   </div>
 </template>
 
